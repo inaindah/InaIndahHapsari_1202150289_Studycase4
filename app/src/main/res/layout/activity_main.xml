@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.android.inaindahhapsari_1202150289_studycase4.MainActivity">
+
+    <Button
+        android:id="@+id/btnListMhs"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="45sp"
+        android:layout_marginRight="45sp"
+        android:layout_marginTop="50sp"
+        android:background="@android:color/background_light"
+        android:onClick="tampilNama"
+        android:text="List Nama Mahasiswa"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnCariGbr"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="45sp"
+        android:layout_marginRight="45sp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        android:onClick="tampilGambar"
+        android:text="Cari Gambar"
+        android:textSize="18sp" />
+
+</LinearLayout>
